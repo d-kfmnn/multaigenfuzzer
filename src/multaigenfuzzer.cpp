@@ -15,7 +15,7 @@ static const char * USAGE =
 "[maf] usage : multaigenfuzzer  <-i n> <out>  [-cl] [-h] [-r] [-s n] \n"
 "[maf] \n"
 "[maf] -i n    sets the input bit-width to 'n' \n"
-"[maf] out     name of output file"
+"[maf] out     name of output file\n"
 "[maf] \n"
 "[maf] -cl     removes carry-lookahead adder from the fuzzing modules \n"
 "[maf] -h      prints this help\n"
@@ -74,7 +74,7 @@ static void init_all(double size, bool use_cl) {
   init_time = process_time();
 
   init_aig(size);
-  
+
 }
 /*------------------------------------------------------------------------*/
 
